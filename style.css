@@ -15,9 +15,6 @@ body {
 nav {
   height: 10%;
 }
-nav button {
-  display: none;
-}
 .nav-logo {
   height: 100%;
 }
