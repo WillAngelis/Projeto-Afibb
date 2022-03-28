@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Convênios</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light align-items-center nav-justified nav-container"
+    >
+      <div class="container nav-logo">
+        <picture>
+          <source srcset="./img/logo_mobile.png" media="(max-width: 380px)" />
+          <img src="./img/logo.png" alt="" />
+        </picture>
+        <button
+          class="menu-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="nav nav-menu">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="./administracao.html" class="nav-link link"
+              >ADMINISTRAÇÃO</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./assistencia.html" class="nav-link link"
+              >ASSISTÊNCIA TÉCNICA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./convenios.html" class="nav-link link">CONVÊNIOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./servicos.html" class="nav-link link">SERVIÇOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./noticias.html" class="nav-link link">NOTICIAS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./consecana.html" class="nav-link link">CONSECANA</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contato.html" class="nav-link link">CONTATO</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://app.afibb.com.br/app/login" class="nav-link link"
+              >SISTEMA</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container-fluid p-3">
+      <section class="container main-container p-3">
+        <div class="container">
+          <div class="row p-3">
+            <div class="col-12">
+              <h3 class="title-page">CONVÊNIOS</h3>
+              <p>
+                Confira abaixo a nossa relação de convênios, agrupados por
+                categoria, disponíveis para todos os nossos associados:
+              </p>
+            </div>
+
+            <div class="accordion convenios">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#academias"
+                    aria-expanded="true"
+                    aria-controls="academias"
+                  >
+                    ACADEMIAS
+                  </button>
+                </h2>
+                <div
+                  id="academias"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="academias"
+                  data-bs-parent="#academias"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Academia Roda Viva</dt>
+                      <dd>Rua Salvador de Toledo, 56 - Barra Bonita</dd>
+                      <dt>Academia Primeiro Movimento</dt>
+                      <dd>Rua Tereza Gandini Bolla, 273 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="clinica">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#clinicas"
+                    aria-expanded="true"
+                    aria-controls="clinicas"
+                  >
+                    CLINICAS
+                  </button>
+                </h2>
+                <div
+                  id="clinicas"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="clinica"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Clinica SAAB</dt>
+                      <dd>R. Riachuelo, 1202 - Jaú</dd>
+                      <dt>Clinica Diagi</dt>
+                      <dd>R. Riachuelo, 907 - Jaú</dd>
+                      <dt>Jaú Cordis (Cardiologia e Ultra-som)</dt>
+                      <dd>
+                        R. Sebastião de Toledo Barros, 527 - Jaú<br />
+                        Fone: (14) 3624 7777
+                      </dd>
+                      <dt>Ultra D - Diagnósticos Médicos</dt>
+                      <dd>
+                        R. Floriano Peixoto, 357 - Jaú<br />
+                        Fone: (14) 3626 6699
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="endocrinologia">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#endocrinologias"
+                    aria-expanded="true"
+                    aria-controls="endocrinologias"
+                  >
+                    ENDOCRINOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="endocrinologias"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="endocrinologia"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dra Jacira Alves Caracik</dt>
+                      <dd>Rua Rodolfo Manhani, 800 – Jaú</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="gastroenterologias">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gastroenterologia"
+                    aria-expanded="true"
+                    aria-controls="gastroenterologia"
+                  >
+                    GASTROENTEROLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="gastroenterologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="gastroenterologias"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. João Bosco Martins Pinto</dt>
+                      <dd>Rua Rio Branco,319 – Barra Bonita</dd>
+                      <dt>Dr. Jorge de Moraes Prado Filho</dt>
+                      <dd>Avenida Marginal, 500 – Jaú</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#neurologia"
+                    aria-expanded="true"
+                    aria-controls="neurologia"
+                  >
+                    NEUROLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="neurologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="neurologia"
+                  data-bs-parent="#neurologia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Antonio Fernando Reginato</dt>
+                      <dd>Rua Rangel Pestana, 254 - Jaú</dd>
+                      <dt>Dr. Odérzio Marcato</dt>
+                      <dt>Dr. Rodrigo Bazan</dt>
+                      <dd>
+                        Rua Rio Branco, 311<br />
+                        Fone: (14) 3641 3709
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ortopedia"
+                    aria-expanded="true"
+                    aria-controls="ortopedia"
+                  >
+                    ORTOPEDIA
+                  </button>
+                </h2>
+                <div
+                  id="ortopedia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ortopedia"
+                  data-bs-parent="#ortopedia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. José Paulo Básaglia</dt>
+                      <dd>
+                        Rua Cônego Francisco Ferreira Delgado, 63 – Barra Bonita
+                      </dd>
+
+                      <dt>Dr. Joel Ricardo Vieira</dt>
+                      <dd>
+                        Rua Cônego Francisco Ferreira Delgado, 63 – Barra Bonita
+                      </dd>
+
+                      <dt>Dr. Silvio Fernando Alonso</dt>
+                      <dd>Rua Riachuelo, 1363 – Jaú</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#psicologia"
+                    aria-expanded="true"
+                    aria-controls="psicologia"
+                  >
+                    PSICOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="psicologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="psicologia"
+                  data-bs-parent="#psicologia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dra Beatriz C. B. Spaulonci</dt>
+                      <dd>Rua Marechal Floriano, 880 – Barra Bonita</dd>
+
+                      <dt>Dra Maria helena Tessaroli Borges</dt>
+                      <dd>Rua Prdente de Moraes, 314 – Barra Bonita</dd>
+
+                      <dt>Dra Paula B. Antonangelo de Marchi</dt>
+                      <dd>Rua 14 de Dezembro, 727 – Barra Bonita</dd>
+
+                      <dt>Dra Telma Crotti Pereira</dt>
+                      <dd>Rua Marechal Floriano, 300 – Barra Bonita</dd>
+
+                      <dt>Dr. Ivson Pereira</dt>
+                      <dd>Rua Marechal Floriano, 300 – Barra Bonita</dd>
+
+                      <dt>Dr. Felipe Chagas Bonadio</dt>
+                      <dd>
+                        Av. Pedro Ometto, 1577 – Barra Bonita<br />
+                        Fone: (14) 3642 3145 / 99605 9556
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ultrassonografia"
+                    aria-expanded="true"
+                    aria-controls="ultrassonografia"
+                  >
+                    RX ULTROSSONOGRAFIA
+                  </button>
+                </h2>
+                <div
+                  id="ultrassonografia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ultrassonografia"
+                  data-bs-parent="#ultrassonografia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Clínica Brandão de Radiodiagnóstico</dt>
+                      <dd>Rua Riachuelo, 907 – Jaú</dd>
+
+                      <dt>Clínica SAAB</dt>
+                      <dd>Rua 7 de Setembro, 859 – Jaú</dd>
+
+                      <dt>Clínica Drª Lenira</dt>
+                      <dd>R: Luiz Paiva – 160 – Jaú</dd>
+
+                      <dt>Clínica de Ortopedia Dr José Paulo</dt>
+                      <dd>
+                        Rua Cônego Francisco Ferreira Delgado, 63 – Barra Bonita
+                      </dd>
+
+                      <dt>Clínica Médica (Dr. Dimas)</dt>
+                      <dd>Rua Prudente de Moraes, 314 – Barra Bonita</dd>
+
+                      <dt>Hospital e Maternidade São José de Barra Bonita</dt>
+                      <dd>Rua 14 de dezembro, 490 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion convenios">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="acupunturas">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#acupuntura"
+                    aria-expanded="true"
+                    aria-controls="acupuntura"
+                  >
+                    ACUPUNTURA
+                  </button>
+                </h2>
+                <div
+                  id="acupuntura"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="acupunturas"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Tarcísio G. Risso</dt>
+                      <dd>Rua Rio Branco, 394 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="clinicos">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#clinicoGeral"
+                    aria-expanded="true"
+                    aria-controls="clinicoGeral"
+                  >
+                    CLÍNICO GERAL
+                  </button>
+                </h2>
+                <div
+                  id="clinicoGeral"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="clinicos"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Constantino Antônio Frollini</dt>
+                      <dd>R. Marechal Floriano, 880 - Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="farmacia">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#farmacias"
+                    aria-expanded="true"
+                    aria-controls="farmacias"
+                  >
+                    FARMÁCIAS
+                  </button>
+                </h2>
+                <div
+                  id="farmacias"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="farmacia"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Fórmula – Farmácia de Manipulação e Homeopatia</dt>
+                      <dd>
+                        Rua Sebastião Franco de Arruda, 661 – Barra Bonita
+                      </dd>
+
+                      <dt>Erva Doce – Farmácia de Manipulação e Homeopatia</dt>
+                      <dd>Rua Prudente de Moraes, 603 – Barra Bonita</dd>
+
+                      <dt>Drogaria dos Amigos</dt>
+                      <dd>Rua Savério Salvi, 326 – Barra Bonita</dd>
+
+                      <dt>Drogaria São Francisco de Assis</dt>
+                      <dd>Av. 15 de Novembro, 09 – Barra Bonita</dd>
+
+                      <dt>Drogaria Droga Mais</dt>
+                      <dd>Rua Prudente de Moraes, 1313 – Barra Bonita</dd>
+
+                      <dt>Droga Dez da Barra</dt>
+                      <dd>Rua Nove de Julho, 250 – Barra Bonita</dd>
+
+                      <dt>Drogaria Caio Simões</dt>
+                      <dd>Av. Caio Simões, 332 – Barra Bonita</dd>
+
+                      <dt>Farma Util</dt>
+                      <dd>Rua José Paulino, 227 – Barra Bonita</dd>
+
+                      <dt>Droga - Fisio</dt>
+                      <dd>Rua Martha Maria, 1632 – Barra Bonita</dd>
+
+                      <dt>Drogaria São Paulo</dt>
+                      <dd>Rua 3 de Janeiro, 88 – Barra Bonita</dd>
+
+                      <dt>Drogaria Nossa Senhora Aparecida</dt>
+                      <dd>Rua Walter Lesser, 123 – Igaraçu do Tietê</dd>
+
+                      <dt>Drogaria e Perfumaria São Luiz</dt>
+                      <dd>
+                        Rua Dr. Salvador Mercadante, 1228 – Mineiros do Tietê
+                      </dd>
+
+                      <dt>Drogaria Nossa Senhora Aparecida</dt>
+                      <dd>Av. Frederico Ozanan, 315 – Mineiros do Tietê</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="ginecologias">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ginecologia"
+                    aria-expanded="true"
+                    aria-controls="ginecologia"
+                  >
+                    GINECOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="ginecologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ginecologias"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Marcílio Togni Júnior</dt>
+                      <dd>Rua Antenor Balsi, 320 – Barra Bonita</dd>
+                      <dt>Dra Martha D. M.A. Pessoa</dt>
+                      <dd>Rua Prudente de Moraes, 314 – Barra Bonita</dd>
+                      <dt>Dra Irene A. do Amaral</dt>
+                      <dd>Rua Prudente de Moraes, 314 – Barra Bonita</dd>
+                      <dt>Dr. Ricardo Balastegui de Oliveira</dt>
+                      <dd>Av. Marginal, 500 – Jau</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#nutricao"
+                    aria-expanded="true"
+                    aria-controls="nutricao"
+                  >
+                    NUTRIÇÃO
+                  </button>
+                </h2>
+                <div
+                  id="nutricao"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="nutricao"
+                  data-bs-parent="#nutricao"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Ana Claudia Maniero</dt>
+                      <dd>
+                        Rua Luiz Stangherlim, 28 – Barra Bonita (Bio Clinica)
+                      </dd>
+                      <dt>Mariana Rambelli Bibian Fadoni</dt>
+                      <dd>
+                        Rua Prudente de Moraes, 314 – Barra Bonita<br />
+                        Fone: (14) 3641 1915 / 99104 1879
+                      </dd>
+                      <dt>Angélica Gonzaga de Moraes</dt>
+                      <dd>
+                        Rua Nahin Arradi, 58 – Barra Bonita<br />
+                        Fone: (14) 3641 2892
+                      </dd>
+                      <dt>Priscila Avoleta Ustulin</dt>
+                      <dd>
+                        Rua Marechal Floriano, 346 – Barra Bonita<br />
+                        Fone: (14) 3641 6349 / 99751 8071
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#otorrinolaringologia"
+                    aria-expanded="true"
+                    aria-controls="otorrinolaringologia"
+                  >
+                    OTORRINOLARINGOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="otorrinolaringologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="otorrinolaringologia"
+                  data-bs-parent="#otorrinolaringologia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. José Luiz Céspedes</dt>
+                      <dd>Rua Antenor Balsi, 320 – Barra Bonita</dd>
+
+                      <dt>Dr. Renato Breda Bauab</dt>
+                      <dd>Rua Cel. Virgílio, 113 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#psiquiatria"
+                    aria-expanded="true"
+                    aria-controls="psiquiatria"
+                  >
+                    PSIQUIATRIA
+                  </button>
+                </h2>
+                <div
+                  id="psiquiatria"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="psiquiatria"
+                  data-bs-parent="#psiquiatria"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Cláudio Bocutto</dt>
+                      <dd>(14) 3815-5877</dd>
+
+                      <dt>Dr. José Maria do Canto Gazzoli</dt>
+                      <dd>Rua Aristides Lobo Sobrinho, 26 – Jaú</dd>
+
+                      <dt>Dr. Carlos Manoel Cristovão</dt>
+                      <dd>R. Prudente de Moraes, 314 - Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#unimed"
+                    aria-expanded="true"
+                    aria-controls="unimed"
+                  >
+                    UNIMED
+                  </button>
+                </h2>
+                <div
+                  id="unimed"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="unimed"
+                  data-bs-parent="#unimed"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>
+                        Convênio de custo abaixo do mercado, com acomodações no
+                        coletivo e apartamento, com cobertura total para
+                        internação e cirurgias, incluindo o projeto Coração.
+                      </dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion convenios">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="cardiologias">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cardiologia"
+                    aria-expanded="true"
+                    aria-controls="cardiologia"
+                  >
+                    CARDIOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="cardiologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="cardiologias"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Dimas de Salles Paiva</dt>
+                      <dd>Rua Prudente de Moraes, 314 – Barra Bonita</dd>
+                      <dt>Dra. Mara Lúcia do Amaral de Oliveira</dt>
+                      <dd>Rua Prudente de Moraes, 314 – Barra Bonita</dd>
+                      <dt>Dr. Igor Alexandre de Souza</dt>
+                      <dd>
+                        Rua Salvador de Toledo, 336 – Barra Bonita<br />
+                        Fone: (14) 3641 2279 / 99716 8890
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="dentista">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dentistas"
+                    aria-expanded="true"
+                    aria-controls="dentistas"
+                  >
+                    DENTISTAS
+                  </button>
+                </h2>
+                <div
+                  id="dentistas"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="dentista"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Ivan P. Bressanim</dt>
+                      <dd>Rua Rio Branco, 339 – Barra Bonita</dd>
+                      <dt>Dra Juliana de Marchi</dt>
+                      <dd>Rua Armando Simões, 469 – Igaraçu do Tietê</dd>
+                      <dt>Dr. Antônio Fadoni</dt>
+                      <dd>Av. Pedro Ometto, 1674 - Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#fisioterapia"
+                    aria-expanded="true"
+                    aria-controls="fisioterapia"
+                  >
+                    FISIOTERAPIA
+                  </button>
+                </h2>
+                <div
+                  id="fisioterapia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="fisioterapia"
+                  data-bs-parent="#fisioterapia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dra Jaqueline Bestana Guzzo</dt>
+                      <dd>Rua Rio Branco, 73 – Barra Bonita</dd>
+                      <dt>Dra Flávia Guzzo</dt>
+                      <dd>Rua Júlio Vieira, 239 – Igaraçu do Tietê</dd>
+                      <dt>Carla Chiaramonte Prando</dt>
+                      <dd>R. Antenor Balsi, 405 - Barra Bonita</dd>
+                      <dt>Dra. Katiane Baldão</dt>
+                      <dd>R. Hipolito Lopes, 208 – Igaracu do Tietê</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="hospitais">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#hospital"
+                    aria-expanded="true"
+                    aria-controls="hospital"
+                  >
+                    HOSPITAL
+                  </button>
+                </h2>
+                <div
+                  id="hospital"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="hospitais"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Hospital e Maternidade São José de Barra Bonita</dt>
+                      <dd>Rua 14 de dezembro, 490 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#oftalmologia"
+                    aria-expanded="true"
+                    aria-controls="oftalmologia"
+                  >
+                    OFTALMOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="oftalmologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="oftalmologia"
+                  data-bs-parent="#oftalmologia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Ediberto Magalhães</dt>
+                      <dd>Rua Dr. João Leite, 621 – Jaú</dd>
+
+                      <dt>Dr. Hilton Antonio G. L. Magalhães</dt>
+                      <dd>Rua Dr. João Leite, 621 – Jaú</dd>
+
+                      <dt>Dr. José Benedito A. da Silva</dt>
+                      <dd>Rua Dr. João Leite, 621 – Jaú</dd>
+
+                      <dt>Dr. Mitsuo Hashimoto</dt>
+                      <dd>Av. Narciza C. Ometto, 750 – Barra Bonita</dd>
+
+                      <dt>Dr. Roberto J. Cury Filho</dt>
+                      <dd>Rua Paissandu, 360 – Jaú</dd>
+
+                      <dt>Dr. Paulo Celso Borga – Jaú</dt>
+
+                      <dt>Dr. Paulo Fernando Bortatto</dt>
+                      <dd>
+                        R. Luiz Stangherlin, 28 (Bio Clinica) - Barra Bonita
+                      </dd>
+
+                      <dt>Dr. Tiago Goncalves Piacente</dt>
+                      <dd>
+                        R. Conego Francisco Ferreira Delgado, 63 - Barra Bonita
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pediatria"
+                    aria-expanded="true"
+                    aria-controls="pediatria"
+                  >
+                    PEDIATRIA
+                  </button>
+                </h2>
+                <div
+                  id="pediatria"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="pediatria"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. José Aparecido Segura Ruiz</dt>
+                      <dd>Rua Dr. João Leite, 621 – Jaú</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#radiografia"
+                    aria-expanded="true"
+                    aria-controls="radiografia"
+                  >
+                    RADIOGRAFIA ODONTOLÓGICA
+                  </button>
+                </h2>
+                <div
+                  id="radiografia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="radiografia"
+                  data-bs-parent="#radiografia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Clínica Radioface</dt>
+                      <dd>Rua Demosthenes Gonçalves, 133 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="urologias">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#urologia"
+                    aria-expanded="true"
+                    aria-controls="urologia"
+                  >
+                    UROLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="urologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="urologias"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Aroldo Rosa</dt>
+                      <dd>Av. Narcisa Chesini Ometto, 750</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion convenios">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="cirurgias">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cirurgialGeral"
+                    aria-expanded="true"
+                    aria-controls="cirurgialGeral"
+                  >
+                    CIRURGIA GERAL
+                  </button>
+                </h2>
+                <div
+                  id="cirurgialGeral"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="cirurgias"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Jéferson Luiz Peraçoli</dt>
+                      <dd>Rua Rio Branco, 333 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="dermatologia">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dermatologias"
+                    aria-expanded="true"
+                    aria-controls="dermatologias"
+                  >
+                    DERMATOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="dermatologias"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="dermatologia"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dra Maria Cristina Mascaro Dias</dt>
+                      <dd>Rua Marechal Bitencourt, 205 - Jaú</dd>
+                      <dt>Dra. Valdete Grizzo P. Martins</dt>
+                      <dd>Rua Riachuelo, 845 – Jaú</dd>
+                      <dt>Dra. Ana Daniela Sanzovo</dt>
+                      <dd>Rua Tenente Lopes, 1780 – Jd. Maria Luiza I - Jau</dd>
+                      <dt>Dr. José Roberto Grizzo</dt>
+                      <dd>Rua Dr. João Leite, 317 – Jaú</dd>
+                      <dt>Dra. Ana Paula Bolla Iaia</dt>
+                      <dd>R. Ferrucio Bolla, 443 - Jardim Vista Alegre</dd>
+                      <dt>Dra. Ana Daniela Sanzovo</dt>
+                      <dd>
+                        R. Tenente Lopes, 1780<br />
+                        Fone: (14) 3624 5097
+                      </dd>
+                      <dt>Dra. Nery Ustulin Cespedes</dt>
+                      <dd>
+                        R. Antenor Balsi, 320, Fone: (14) 3641 2509<br />
+                        R. Alvaro Floret, 125, Jaú, Fone: (14) 3622 6194
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#fonoaudiologia"
+                    aria-expanded="true"
+                    aria-controls="fonoaudiologia"
+                  >
+                    FONOAUDIOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="fonoaudiologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="fonoaudiologia"
+                  data-bs-parent="#fonoaudiologia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dra Carla C. Frollini Parra</dt>
+                      <dd>Rua Marechal Floriano, 880 – Barra Bonita</dd>
+                      <dt>Dr. Renata Luciana Zorzin</dt>
+                      <dd>Edificio Embaixador – sala 703 - Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#laboratorios"
+                    aria-expanded="true"
+                    aria-controls="laboratorios"
+                  >
+                    LABORATÓRIOS
+                  </button>
+                </h2>
+                <div
+                  id="laboratorios"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="laboratorio"
+                  data-bs-parent="#laboratorio"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Laboratório Biomed</dt>
+                      <dd>Sede da Afibb e Rua 14 de Dezembro ,490</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ortomolecular"
+                    aria-expanded="true"
+                    aria-controls="ortomolecular"
+                  >
+                    ORTOMOLECULAR
+                  </button>
+                </h2>
+                <div
+                  id="ortomolecular"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ortomolecular"
+                  data-bs-parent="#ortomolecular"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr Olavo Ferreira Filho</dt>
+                      <dd>R. Luiz Stangherlin, 28 (Bio Clinica)</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#podologos"
+                    aria-expanded="true"
+                    aria-controls="podologos"
+                  >
+                    PODÓLOGOS
+                  </button>
+                </h2>
+                <div
+                  id="podologos"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="podologos"
+                  data-bs-parent="#podologos"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Benedito Iaia Sobrinho (Benê)</dt>
+                      <dd>Rua Rio Branco, 333 – Barra Bonita</dd>
+
+                      <dt>Clínica Bem Viver ( Podologia e Massoterapia)</dt>
+                      <dd>Rua João Gerin, 722 – Barra Bonita</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#reumatologia"
+                    aria-expanded="true"
+                    aria-controls="reumatologia"
+                  >
+                    REUMATOLOGIA
+                  </button>
+                </h2>
+                <div
+                  id="reumatologia"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="reumatologia"
+                  data-bs-parent="#reumatologia"
+                >
+                  <div class="accordion-body">
+                    <dl>
+                      <dt>Dr. Luis Antonio Blasioli</dt>
+                      <dd>Rua Humaitá, 788 – Jaú</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid"></footer>
+  </body>
+</html>
