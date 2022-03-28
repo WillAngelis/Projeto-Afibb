@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  height: 100vh;
+}
+
+/* Menu da Pagina */
+
+nav {
+  height: 10%;
+}
+nav button {
+  display: none;
+}
+.nav-logo {
+  height: 100%;
+}
+picture,
+.nav-logo img {
+  height: 100%;
+}
+.nav-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 20px;
+}
+.nav-menu li:nth-child(3) {
+  width: 165px;
+  flex-basis: initial;
+}
+
+/* Container Principal */
+
+.home,
+main {
+  width: 100%;
+  display: flex;
+}
+.home {
+  background: url('./img/background_home.jpg');
+  min-height: 55%;
+}
+main {
+  background: url('./img/background.jpg');
+  align-items: stretch;
+  justify-content: center;
+  min-height: 75%;
+}
+
+.home p {
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.main-container {
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+article {
+  height: 20%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+article h5 {
+  color: rgb(24, 24, 24);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Container Cotações e Clima */
+
+aside {
+  width: 25%;
+}
+aside section {
+  height: 50%;
+  padding: 10px;
+}
+
+.clima {
+  background-color: #5e4434;
+  color: #fff;
+  padding: 20px;
+}
+.clima,
+.cotacoes h4 {
+  text-align: right;
+}
+.cotacoes {
+  color: #fff;
+  padding: 20px;
+  background-color: #24ad62;
+}
+.links-ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 120px;
+}
+.section-links a {
+  height: 30px;
+  margin: 0 20px;
+  font-size: 15px;
+}
+.link {
+  color: #00000080;
+  font-size: 0.8em;
+  padding: 0 8px;
+  text-decoration: none;
+}
+.link:hover {
+  color: #000000;
+}
+
+.link:focus {
+  color: #000000;
+}
+.section-links a:hover {
+  color: #1dac67;
+}
+
+/* Footer da Pagina */
+
+footer {
+  background-color: #8d715d;
+  height: 15%;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-40px);
+}
+.title-page,
+svg {
+  margin: 0;
+  color: #60ca96;
+  margin: 0 10px 10px 0;
+}
+svg {
+  width: 40px;
+  height: 40px;
+}
+
+dt {
+  color: #60ca96;
+}
+
+/* Outras Paginas */
+
+.admin-img {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+.admin-img img {
+  width: 75%;
+  height: fit-content;
+}
+.main-container .convenios {
+  width: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #1dac67;
+  color: #fff;
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(242, 242, 242, 0.96);
+}
+
+.main-container div h5 {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 450px) {
+  .home {
+    flex-direction: column;
+  }
+  .home section {
+    width: 100%;
+  }
+  .home section p {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+  .home aside {
+    width: 100%;
+  }
+  .links-section,
+  .links-ul {
+    height: fit-content;
+  }
+  .main-container {
+    height: fit-content;
+    padding: 0;
+  }
+  .main-container div {
+    height: fit-content;
+  }
+  .noticias-section {
+    height: fit-content;
+    flex-direction: column;
+  }
+  footer {
+    height: fit-content;
+  }
+  .noticias {
+    height: max-content;
+  }
+  .noticias-section div {
+    margin: 0;
+  }
+  .svg {
+    margin: 0;
+    transform: translateX(-10px);
+  }
+  .svg h3 {
+    margin: 0;
+  }
+  svg {
+    transform: scale(0.5);
+    margin: 0;
+  }
+  .title-page {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .list-group {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .administracao {
+    flex-direction: column;
+  }
+}
