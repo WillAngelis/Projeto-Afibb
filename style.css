@@ -8,6 +8,7 @@
 }
 body {
   height: 100vh;
+  background-color: #f5f8fa;
 }
 
 /* Menu da Pagina */
@@ -218,9 +219,6 @@ dt {
   .noticias-section {
     height: fit-content;
     flex-direction: column;
-  }
-  footer {
-    height: fit-content;
   }
   .noticias {
     height: max-content;
