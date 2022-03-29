@@ -130,8 +130,8 @@ aside section {
 /* Footer da Pagina */
 
 footer {
-  background-color: #8d715d;
-  height: 15%;
+  background-color: #f5f8fa;
+  font-size: 0.75em;
 }
 
 .svg {
@@ -144,17 +144,25 @@ footer {
 svg {
   margin: 0;
   color: #60ca96;
-  margin: 0 10px 10px 0;
+  margin: 0 5px 5px 0;
 }
 svg {
-  width: 40px;
-  height: 40px;
+  transform: scale(0.7);
+  height: 30px;
 }
 
 dt {
   color: #60ca96;
 }
-
+.faceIcon {
+  color: rgb(255, 255, 255);
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  margin: 0;
+  background-color: #2483ff;
+  transform: translateX(0px);
+}
 /* Outras Paginas */
 
 .admin-img {
@@ -249,7 +257,6 @@ dt {
     margin: 0;
   }
   .svg {
-    margin: 0;
     transform: translateX(-10px);
   }
   .svg h3 {
