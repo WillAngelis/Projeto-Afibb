@@ -47,7 +47,7 @@ main {
   background: url('./img/background.jpg');
   align-items: stretch;
   justify-content: center;
-  min-height: 75%;
+  min-height: 73%;
 }
 
 .home p {
@@ -64,7 +64,7 @@ main {
 }
 
 article {
-  height: 20%;
+  height: 18%;
   background-color: #ffffff;
   padding: 20px;
 }
