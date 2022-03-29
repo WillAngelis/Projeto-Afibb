@@ -182,7 +182,35 @@ dt {
   font-size: 0.8rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 990px) {
+  .home {
+    min-height: initial;
+  }
+  .show {
+    height: 50vh;
+    border-radius: 10px;
+  }
+  .navbar-collapse {
+    flex-basis: initial;
+  }
+  ul {
+    height: 50vh;
+    font-size: 1.2rem;
+  }
+  ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .links-section,
+  .links-ul {
+    height: fit-content;
+  }
+  .title-page {
+    font-size: 22px;
+  }
+}
+@media (max-width: 750px) {
   .home {
     flex-direction: column;
   }
@@ -242,5 +270,51 @@ dt {
 
   .administracao {
     flex-direction: column;
+  }
+  div picture {
+    margin-right: auto;
+  }
+  div button {
+    margin-left: auto;
+  }
+  .navbar-toggler {
+    transform: translate(0, 5px);
+  }
+  .title-page {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1250px) {
+  nav {
+    flex-direction: column;
+    height: max-content;
+    transition: all 400ms;
+  }
+  .navbar .nav-logo {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .nav-logo img {
+    height: 70px;
+  }
+  .navbar .logo-mobile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .links-section,
+  .links-ul {
+    height: fit-content;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .section-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .links-ul a {
+    width: 250px;
   }
 }
