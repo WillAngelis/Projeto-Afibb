@@ -15,7 +15,9 @@ body {
 
 nav {
   height: 10%;
-  background-color: #fff;
+  background-image: url('./img/background_home.jpg');
+  background-position: bottom;
+  filter: drop-shadow(2px 4px 6px black);
 }
 .nav-logo {
   height: 100%;
@@ -192,7 +194,7 @@ dt {
   font-size: 0.8rem;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 775px) {
   .home {
     flex-direction: column;
   }
@@ -293,7 +295,7 @@ dt {
   }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1425px) {
   nav {
     flex-direction: column;
     height: max-content;
