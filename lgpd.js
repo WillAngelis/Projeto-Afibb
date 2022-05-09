@@ -19,5 +19,6 @@ if (!lsContent) {
   lgpdButton.addEventListener('click', () => {
     lgpdArea.remove();
     localStorage.setItem('lgpd', 'true');
+    document.location.reload(true);
   });
 }
