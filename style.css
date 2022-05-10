@@ -88,18 +88,18 @@ aside {
   width: 25%;
 }
 aside section {
-  height: 50%;
+  height: 100%;
   padding: 10px;
 }
 
 .clima {
-  background-color: #5e4434;
+  background-color: #462d1d;
   color: #fff;
   padding: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .clima h4,
 .cotacoes h4 {
@@ -119,7 +119,7 @@ aside section {
   border-radius: 5px;
   color: #5e4434;
 }
-.cotacoes {
+/* .cotacoes {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,7 +152,7 @@ aside section {
   color: #000;
   font-weight: 700;
   font-size: 0.8em;
-}
+} */
 .links-ul {
   display: flex;
   flex-direction: column;
@@ -405,7 +405,7 @@ a {
 .lgpd button {
   background-color: #24ad62;
   border: 0;
-  color: rgb(21, 21, 21);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   padding: 10px 30px;
 }
