@@ -1,8 +1,7 @@
 let lgpdHtml = `
   <div class="lgpd">
     <div class="lgpd--left">
-     Nós utilizamos cookie para melhorar sua experiência do usuário.<br>
-     Para conferir detalhadamente todos os cookies utilizados, leia nossa <a href=""> política de privacidade</a>
+     Nós utilizamos cookies para melhorar sua experiência de navegação e do usuário. Ao utilizar nossos serviços, você concorda com tal monitoramento<br>
      </div>
   <div class="lgpd--right">
    <button>Ok</button>
